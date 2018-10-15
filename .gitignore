@@ -1,2 +1,10 @@
 # Python compiled files
 .pyc
+
+# Local changes
+.mypy_cache
+.pytest_cache
+.vscode
+.ipynb_checkpoints
+__pycache__
+*.ipynb
