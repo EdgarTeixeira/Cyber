@@ -34,7 +34,7 @@ def remove_accents(text: str) -> str:
 
 def remove_punctuations(text: str) -> str:
     # TODO: Should ignore numbers? Like 3.0 or 3,0
-    return re.sub(r"[!\"#$%&()*+,-./:;<=>?@[\\\]^_`{|}~“”—‘’]+", " ", text)
+    return re.sub(r"[!\"#$%&()*+,-./:;<=>?@[\\\]^_`{|}~“”—‘’']+", " ", text)
 
 
 def remove_case(text: str) -> str:
@@ -81,7 +81,7 @@ class OOVPolicy(Enum):
     encode = 2
 
 
-class OneHotEncoder:
+class IndexEncoder:
     def __init__(self, oov_policy: OOVPolicy = OOVPolicy.ignore) -> None:
         if oov_policy != OOVPolicy.ignore:
             raise NotImplementedError(
