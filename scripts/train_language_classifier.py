@@ -31,7 +31,7 @@ x_dev = pipe.generate_samples(portuguese_corpus, data_size, 2018) +\
         pipe.generate_samples(english_corpus, data_size, 2018)
 y_dev = [0] * data_size + [1] * data_size
 
-encoder = pipe.OneHotEncoder(pipe.OOVPolicy.ignore)
+encoder = pipe.IndexEncoder(pipe.OOVPolicy.ignore)
 encoder.fit(x_dev)
 x_feature = list(map(encoder.transform, x_dev))
 

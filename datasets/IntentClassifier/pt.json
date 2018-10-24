@@ -1,0 +1,410 @@
+[
+    {
+        "query": "oi",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Olá",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Bom dia",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Boa tarde",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Boa noite",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Saudações",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Salve",
+        "intents": ["greetings"]
+    },
+
+    {
+        "query": "Tchau",
+        "intents": ["farewell"]
+    },
+
+    {
+        "query": "Até logo",
+        "intents": ["farewell"]
+    },
+
+    {
+        "query": "Até mais",
+        "intents": ["farewell"]
+    },
+
+    {
+        "query": "flw",
+        "intents": ["farewell"]
+    },
+
+    {
+        "query": "Qual é a previsão do tempo de hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Qual será a temperatura de hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Qual a previsão de chuva de hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Será que fará calor hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Eu acho que fará frio.",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai fazer calor?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai chover?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai esfriar?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai esquentar?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Como será a temperatura hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Fará sol hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai fazer sol?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Como será o céu de hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai chover?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Será que vai chover?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Acho que vai chover",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O tempo continuará fechado?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O tempo vai abrir?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O céu continuará nublado?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O céu vai continuar cinzento?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O céu vai continuar limpo?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O céu vai ficar azul?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "O sol vai continuar?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "As nuvens vão continuar?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai continuar nublado ou vai ficar ensolarado?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Espero que o sol reapareça",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vamos torcer para o céu continuar assim",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Tomara que pare de chover logo",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vamos torcer para a chuva parar logo",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Qual é a previsão de chuva?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vai parar de chover?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "A chiva vai continuar por muito tempo?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Que dia é hoje?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Em que dia estou?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Em que dia estamos?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Hoje é qual dia do mês?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Qual dia foi ontem?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Ontem foi qual dia do mês?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Que dia será amanhã?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Amanhã será que dia?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Hoje é dia 31 de outubro?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Depois de amanhã será dia 2 de novembro?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Anteontem foi dia primeiro de janeiro?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Hoje é que dia da semana?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Qual é o dia da semana de depois de amanhã?",
+        "intents": ["do-time-arithmetic"]
+    },
+        
+    {
+        "query": "Ontem foi que dia da semana?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Hoje é quarta?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Amanhã será quinta-feira?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Estamos numa sexta-feira?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Amanhã será fim de semana?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Quando será o fim de semana?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Faltam quantos dias para o fim de semana",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Que dia do mês irá cair a próxima segunda",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Quando foi o último dia da semana?",
+        "intents": ["do-time-arithmetic"]
+    },
+    
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+
+    },
+
+    {
+        
+    }
+]
