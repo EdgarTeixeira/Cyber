@@ -325,86 +325,177 @@
     },
     
     {
-
+        "query": "Que dia da semana vai cair 16 de julho?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana vai ser o próximo dia 8?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana foi o último dia 28?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana foi o dia 23 de agosto?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "O dia 25 de dezembro será que dia da semana?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana cairá o Natal?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana caiu a Pascoa?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "A pascoa será em que dia da semana?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia da semana caiu a pascoa de 2 anos atrás?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "O dia da independência do ano que vem será em que dia da semana?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quando será a pascoa em 2022?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quando foi a pascoa em 1945?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quando será a primeira segunda-feira do mês que vem?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quando será a segunda segunda-feira do mês que vem?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quando foi o terceiro domingo do mês retrasado?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Que dia vai cair a próxima quarta?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quanto tempo falta para o dia 27?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Falta quanto tempo para o próximo dia 12?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Quanto falta para as 18 horas?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-
+        "query": "Faltam quantos dias para o Ano Novo?",
+        "intents": ["do-time-arithmetic"]
     },
 
     {
-        
+        "query": "Faltam quantas horas para o meio-dia?",
+        "intents": ["do-time-arithmetic"]
+    },
+
+    {
+        "query": "Me dê a previsão do tempo de amanhã.",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Eu quero a previsão do tempo da próxima quinta-feira",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Irá chover nessa semana?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Vai fazer frio no final de semana?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+    
+    {
+        "query": "Vai esquentar na sexta?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Será que passaremos frio no Natal?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Preciso por um casaco hoje?",
+        "intents": ["view-weather-forecast"]
+    },
+
+    {
+        "query": "Vou precisar de um casaco a próxima terça-feira?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Previsão do tempo para os próximos 3 dias",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Será que vai esfriar de tarde?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Vai fazer frio essa noite?",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Vou levar uma jaqueta para hoje a noite",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Qual a previsão do tempo para amanhã as 6 horas da tarde",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
+    },
+
+    {
+        "query": "Quantos graus vai fazer amanhã",
+        "intents": ["view-weather-forecast", "do-time-arithmetic"]
     }
 ]
