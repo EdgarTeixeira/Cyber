@@ -9,8 +9,9 @@ import pipeline as pipe
 
 # Load text data
 print("Loading data..   ", end='', flush=True)
-portuguese_corpus = pipe.data_archive('../datasets/pt_br.tar.xz', 'latin-1')
-english_corpus = pipe.data_archive('../datasets/en.tar.xz', 'utf-8')
+portuguese_corpus = pipe.data_archive('../datasets/LanguageClassifier/pt_br.tar.xz', 'latin-1')
+english_corpus = pipe.data_archive('../datasets/LanguageClassifier/en.tar.xz',
+                                   'utf-8')
 print('OK')
 
 # Clean the data

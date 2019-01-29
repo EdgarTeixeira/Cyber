@@ -1,0 +1,975 @@
+{
+    "possible-intents": ["greetings", "farewell", "view-weather-forecast", "do-time-arithmetic"],
+
+    "dataset": [
+        {
+            "query": "oi",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Olá",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Bom dia",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Boa tarde",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Boa noite",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Saudações",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Salve",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "eae",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "como vai?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Oi, como você está?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Olá, como vai você?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Oi, hoje está um belo dia",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Bom dia, como você está?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Boa tarde, amigo",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Boa noite, parceiro",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Saudações, compadre",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Como você está?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "eae parceiro",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "blz mano",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "bom dia",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Como vai parceiro?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Bom dia amigo",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Boa tarde, como vai você?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Boa tarde, hoje o dia está lindo",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Olá amigo",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Olá parceiro",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Oi, como vai você?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "hey",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Hey",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Eae",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "eae blz",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "blz mano",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "hey, boa noite",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Ola",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Ola, como vc está?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "Hey, como vc tá?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "como vai vc?",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "eae",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "bom dia parceiro",
+            "intents": ["greetings"]
+        },
+
+        {
+            "query": "boa tarde parça",
+            "intents": ["greetings"]
+        },
+    
+        {
+            "query": "Tchau",
+            "intents": ["farewell"]
+        },
+    
+        {
+            "query": "Até logo",
+            "intents": ["farewell"]
+        },
+    
+        {
+            "query": "Até mais",
+            "intents": ["farewell"]
+        },
+    
+        {
+            "query": "flw",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw brother",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até logo parceiro",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Tchau, te vejo amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Até logo, nos vemos amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, até amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "tchau, nos vemos amanhã de novo",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até semana que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até mês que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "tchau, até mês que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "tchau, te vejo semana que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, nos vemos semana que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, nos vemos na próxima semana",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até mais, nos vemos na próxima semana",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até logo, nos vemos no próximo mês",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "nos vemos mês que vem, tchau",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Até mais, amanhã nos vemos novamente",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Até mais, bom final de semana",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Tchau parceiro, até amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw parceiro, até mês que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw brother, até semana que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "tchau parceiro",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até mais brother",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até mais parceiro",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "nos vemo amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até logo brother",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, te vejo amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, te vejo mês que vem",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw, nos vemos amanhã",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "tchau, até a próxima",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até amanhã parceiro",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "até amanhã brother",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "Até semana que vem brother",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "flw parceiro",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "",
+            "intents": ["farewell"]
+        },
+
+        {
+            "query": "",
+            "intents": ["farewell"]
+        },
+    
+        {
+            "query": "Qual é a previsão do tempo de hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Qual será a temperatura de hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Qual a previsão de chuva de hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Será que fará calor hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Eu acho que fará frio.",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai fazer calor?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai chover?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai esfriar?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai esquentar?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Como será a temperatura hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Fará sol hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai fazer sol?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Como será o céu de hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai chover?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Será que vai chover?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Acho que vai chover",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O tempo continuará fechado?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O tempo vai abrir?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O céu continuará nublado?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O céu vai continuar cinzento?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O céu vai continuar limpo?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O céu vai ficar azul?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "O sol vai continuar?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "As nuvens vão continuar?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai continuar nublado ou vai ficar ensolarado?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Espero que o sol reapareça",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vamos torcer para o céu continuar assim",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Tomara que pare de chover logo",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vamos torcer para a chuva parar logo",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Qual é a previsão de chuva?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vai parar de chover?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "A chuva vai continuar por muito tempo?",
+            "intents": ["view-weather-forecast"]
+        },
+
+        {
+            "query": "Quantos graus fará hoje a tarde?",
+            "intents": ["view-weather-forecast"]
+        },
+
+        {
+            "query": "Vai fazer quantos graus hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+
+        {
+            "query": "A temperatura vai continuar quente?",
+            "intents": ["view-weather-forecast"]
+        },
+
+        {
+            "query": "A temperatura vai continuar baixa?",
+            "intents": ["view-weather-forecast"]
+        },
+
+        {
+            "query": "A temperatura vai continuar baixa?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Que dia é hoje?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Em que dia estou?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Em que dia estamos?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Hoje é qual dia do mês?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Qual dia foi ontem?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Ontem foi qual dia do mês?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia será amanhã?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Amanhã será que dia?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Hoje é dia 31 de outubro?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Depois de amanhã será dia 2 de novembro?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Anteontem foi dia primeiro de janeiro?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Hoje é que dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Qual é o dia da semana de depois de amanhã?",
+            "intents": ["do-time-arithmetic"]
+        },
+            
+        {
+            "query": "Ontem foi que dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Hoje é quarta?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Amanhã será quinta-feira?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Estamos numa sexta-feira?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Amanhã será fim de semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando será o fim de semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Faltam quantos dias para o fim de semana",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia do mês irá cair a próxima segunda",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando foi o último dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+        
+        {
+            "query": "Que dia da semana vai cair 16 de julho?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana vai ser o próximo dia 8?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana foi o último dia 28?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana foi o dia 23 de agosto?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "O dia 25 de dezembro será que dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana cairá o Natal?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana caiu a Pascoa?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "A pascoa será em que dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia da semana caiu a pascoa de 2 anos atrás?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "O dia da independência do ano que vem será em que dia da semana?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando será a pascoa em 2022?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando foi a pascoa em 1945?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando será a primeira segunda-feira do mês que vem?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando será a segunda segunda-feira do mês que vem?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quando foi o terceiro domingo do mês retrasado?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Que dia vai cair a próxima quarta?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quanto tempo falta para o dia 27?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Falta quanto tempo para o próximo dia 12?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quanto falta para as 18 horas?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Faltam quantos dias para o Ano Novo?",
+            "intents": ["do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Faltam quantas horas para o meio-dia?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quanto tempo falta para o dia primeiro de janeiro?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quanto tempo se passou desde o dia primeiro de Abril?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quanto tempo se passou desde o ano novo?",
+            "intents": ["do-time-arithmetic"]
+        },
+        
+        {
+            "query": "Quanto tempo se passou desde a pascoa?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quanto tempo se passou desde o último feriado?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quando será o próximo feriado?",
+            "intents": ["do-time-arithmetic"]
+        },
+
+        {
+            "query": "Me dê a previsão do tempo de amanhã.",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Eu quero a previsão do tempo da próxima quinta-feira",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Irá chover nessa semana?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Vai fazer frio no final de semana?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+        
+        {
+            "query": "Vai esquentar na sexta?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Será que passaremos frio no Natal?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Preciso por um casaco hoje?",
+            "intents": ["view-weather-forecast"]
+        },
+    
+        {
+            "query": "Vou precisar de um casaco a próxima terça-feira?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Previsão do tempo para os próximos 3 dias",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Será que vai esfriar de tarde?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Vai fazer frio essa noite?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Vou levar uma jaqueta para hoje a noite",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Qual a previsão do tempo para amanhã as 6 horas da tarde",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+    
+        {
+            "query": "Quantos graus vai fazer amanhã",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Qual a previsão do tempo para o próximo feriado?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Qual a previsão do tempo para o Ano Novo?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vai fazer calor na Pascoa?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vai chover no próximo final de semana?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vai fazer calor na próxima quinta-feira?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Qual será a temperatura do próximo Domingo?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Quantos graus fará a noite?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vai esfriar neste final de semana?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vai chover no final de semana?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Será que vai esquentar na semana que vem?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Vou precisar de um guarda-chuva na segunda?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Será que vou precisar de uim guarda-chuva na próxima quinta-feira?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Me dê a previsão do tempo para Sabado.",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        },
+
+        {
+            "query": "Qual a previsão do tempo para a quarta-feira?",
+            "intents": ["view-weather-forecast", "do-time-arithmetic"]
+        }
+    ]
+}
